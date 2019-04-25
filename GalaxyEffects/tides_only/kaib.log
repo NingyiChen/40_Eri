@@ -1,0 +1,135 @@
+-------- Log file kaib.log -------
+
+Executable: vplanet
+System Name: kaib
+Primary Input File: vpl.in
+Body File #1: sun.in
+Body File #2: comp.in
+Allow files to be overwitten: Yes
+Mass Units: Kilograms
+Length Units: Meters
+Time Units: Seconds
+Angle Units: Radians
+
+------- FORMATTING -----
+Verbosity Level: 5
+Crossover Decade for Scientific Notation: 4
+Number of Digits After Decimal: 10
+Integration Method: Runge-Kutta4
+Direction: Forward
+Time Step: 3.1557600000e+10
+Stop Time: 3.1557600000e+17
+Output Interval: 3.1557600000e+13
+Use Variable Timestep: No
+Minimum Value of ecc and obl: 1.0000000000e-10
+
+
+---- INITIAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 0.0000000000 
+(Time) Simulation Time [sec]: 0.0000000000 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 7.1743651733e+46 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -4.1836162388e+41 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -4.0707216857e+41 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 2.2411137512e+34 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: inf 
+(Density) Average Density [kg/m^3]: 1.4154664446e+05 
+(LongP) Body's Longitude of pericenter [rad]: 3.9269908170 
+(LXUVTot) Total XUV Luminosity [kg*m^2/sec^2/(m^2*sec)]: 0.0000000000 
+
+----- BODY: sun ----
+Active Modules: 
+Module Bit Sum: 1
+Color: 00ff00
+(Mass) Mass [kg]: 1.9884160000e+30 
+(Radius) Radius [m]: 3.8895446382e+08 
+(RadGyra) Radius of Gyration []: 0.5000000000 
+(BodyType) Type of Body (0 == planet) []: 0.0000000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: -1.0000000000 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.0000000000 
+Output Order:
+Grid Output Order:
+
+----- BODY: comp ----
+Active Modules: GALHABIT
+Module Bit Sum: 2049
+Color: ff0000
+(Mass) Mass [kg]: 2.3860992000e+29 
+(Radius) Radius [m]: 2.0195712545e+08 
+(RadGyra) Radius of Gyration []: 0.5000000000 
+(BodyType) Type of Body (0 == planet) []: 0.0000000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: -1.0000000000 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 0.0000000000 
+(Eccentricity) Orbital Eccentricity []: 0.7000000000 
+(SemiMajorAxis) Semi-major Axis [m]: 1.4959787070e+15 
+(ArgP) Body's argument of pericenter [rad]: 3.9618974019 
+(Inc) Body's Inclination [rad]: 1.3962634016 
+(LongA) Body's Longitude of ascending node [rad]: 0.2984513021 
+-----GALHABIT PARAMETERS (comp)------
+(PeriQ) Pericenter distance [m]: 4.4879361210e+14 
+(NEncounters) cumulative number of stellar encounters []: 0.0000000000 
+(FVelDisp) Scaling factor for velocity dispersion []: 1.0000000000 
+(EccX) X component of ecc vector []: -0.4301546660 
+(EccY) Y component of ecc vector []: -0.2253433336 
+(EccZ) Z component of ecc vector []: -0.5041699568 
+(AngMX) X component of angular mom vector []: 0.2067966225 
+(AngMY) Y component of angular mom vector []: -0.6722029271 
+(AngMZ) Z component of angular mom vector []: 0.1240096033 
+(NBadImpulse) cumulative number of questionable encounters []: 0.0000000000 
+Output Order: Time[year] SemiMajorAxis[AU] Eccentricity[] PeriQ[AU] ArgP[deg] Inc[deg] LongA[deg] NEncounters[deg] FVelDisp[deg] DeltaTime[year]
+Grid Output Order:
+
+
+
+---- FINAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 3.1557600000e+17 
+(Time) Simulation Time [sec]: 3.1557600000e+17 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 3.1682947117e+46 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -4.1836162388e+41 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -4.0707216857e+41 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 2.2411137512e+34 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 3.1557600000e+06 
+(Density) Average Density [kg/m^3]: 1.4154664446e+05 
+(LongP) Body's Longitude of pericenter [rad]: 3.9269908170 
+(LXUVTot) Total XUV Luminosity [kg*m^2/sec^2/(m^2*sec)]: 0.0000000000 
+
+----- BODY: sun ----
+Active Modules: 
+Module Bit Sum: 1
+Color: 00ff00
+(Mass) Mass [kg]: 1.9884160000e+30 
+(Radius) Radius [m]: 3.8895446382e+08 
+(RadGyra) Radius of Gyration []: 0.5000000000 
+(BodyType) Type of Body (0 == planet) []: 0.0000000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: -1.0000000000 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.0000000000 
+Output Order:
+Grid Output Order:
+
+----- BODY: comp ----
+Active Modules: GALHABIT
+Module Bit Sum: 2049
+Color: ff0000
+(Mass) Mass [kg]: 2.3860992000e+29 
+(Radius) Radius [m]: 2.0195712545e+08 
+(RadGyra) Radius of Gyration []: 0.5000000000 
+(BodyType) Type of Body (0 == planet) []: 0.0000000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: -1.0000000000 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 0.0000000000 
+(Eccentricity) Orbital Eccentricity []: 0.9489672586 
+(SemiMajorAxis) Semi-major Axis [m]: 1.4959787070e+15 
+(ArgP) Body's argument of pericenter [rad]: 3.8685960530 
+(Inc) Body's Inclination [rad]: 1.1666721254 
+(LongA) Body's Longitude of ascending node [rad]: 2.9230635259 
+-----GALHABIT PARAMETERS (comp)------
+(PeriQ) Pericenter distance [m]: 7.6343894441e+13 
+(NEncounters) cumulative number of stellar encounters []: 0.0000000000 
+(FVelDisp) Scaling factor for velocity dispersion []: 1.0000000000 
+(EccX) X component of ecc vector []: 0.7459427488 
+(EccY) Y component of ecc vector []: 0.0883921194 
+(EccZ) Z component of ecc vector []: -0.5799095677 
+(AngMX) X component of angular mom vector []: 0.0628638313 
+(AngMY) Y component of angular mom vector []: 0.2830741355 
+(AngMZ) Z component of angular mom vector []: 0.1240096033 
+(NBadImpulse) cumulative number of questionable encounters []: 0.0000000000 
+Output Order: Time[year] SemiMajorAxis[AU] Eccentricity[] PeriQ[AU] ArgP[deg] Inc[deg] LongA[deg] NEncounters[deg] FVelDisp[deg] DeltaTime[year]
+Grid Output Order:
