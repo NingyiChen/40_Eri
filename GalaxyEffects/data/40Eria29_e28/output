@@ -1,0 +1,18 @@
+WARNING: sUnitMass set in vpl.in, all bodies will use this unit.
+WARNING: sUnitTime set in vpl.in, all bodies will use this unit.
+WARNING: sUnitAngle set in vpl.in, all bodies will use this unit.
+WARNING: sUnitLength set in vpl.in, all bodies will use this unit.
+WARNING: sUnitTemp set in vpl.in, all bodies will use this unit.
+WARNING: saModules not present in file sun.in. No evolution will occur for this body.
+WARNING: dRotPeriod < 0 in file comp.in, units assumed to be Days.
+WARNING: sOutFile not set, defaulting to 40Eri.sun.forward.
+WARNING: sOutFile not set, defaulting to 40Eri.comp.forward.
+WARNING: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+Input files read.
+All of sun's modules verified.
+All of comp's modules verified.
+Input files verified.
+Log file written.
+HALT: body 1 disrupted at 8.62e+09 years
+Log file updated.
+Simulation completed.

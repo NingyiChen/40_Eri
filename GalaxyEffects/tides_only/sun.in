@@ -2,10 +2,10 @@ sName		sun		# Body's name
 #saModules       galhabit
 
 # Physical Parameters
-dMass		1		# Mass, negative -> Earth masses
-dRadius		0.0026		# Radius, negative -> Earth radii
+dMass		0.78		# Mass, negative -> Earth masses
+dRadius		0.87		# Radius, negative -> Earth radii
 dObliquity	0
-dRotPeriod	0.2579		# Rotation period, negative -> days
+dRotPeriod	43		# Rotation period, negative -> days
 dRadGyra	0.5		# Radius of gyration (moment of inertia constant)
 cColor 00ff00
 

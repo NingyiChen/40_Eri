@@ -1,0 +1,11 @@
+WARNING: sUnitMass set in vpl.in, all bodies will use this unit.
+WARNING: sUnitTime set in vpl.in, all bodies will use this unit.
+WARNING: sUnitAngle set in vpl.in, all bodies will use this unit.
+WARNING: sUnitLength set in vpl.in, all bodies will use this unit.
+WARNING: sUnitTemp set in vpl.in, all bodies will use this unit.
+WARNING: saModules not present in file sun.in. No evolution will occur for this body.
+WARNING: dRotPeriod < 0 in file comp.in, units assumed to be Days.
+WARNING: sOutFile not set, defaulting to 40Eri.sun.forward.
+WARNING: sOutFile not set, defaulting to 40Eri.comp.forward.
+WARNING: 40Eri.comp.forward exists.
+WARNING: sIntegrationMethod not set, defaulting to Runge-Kutta4.
